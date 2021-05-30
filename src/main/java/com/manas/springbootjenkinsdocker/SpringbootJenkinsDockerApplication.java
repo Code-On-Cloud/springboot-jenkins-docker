@@ -15,6 +15,7 @@ public class SpringbootJenkinsDockerApplication {
 	@PostConstruct
 	public void init() {
 		logger.info("My application started  !!!!");
+		logger.info("Hello World  !!!!");
 	}
 	
 	public static void main(String[] args) {
