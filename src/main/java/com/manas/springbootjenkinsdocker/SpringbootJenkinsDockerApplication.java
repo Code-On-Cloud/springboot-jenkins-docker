@@ -15,7 +15,7 @@ public class SpringbootJenkinsDockerApplication {
 
 	public static Logger logger = LoggerFactory.getLogger(SpringbootJenkinsDockerApplication.class);
 	
-	@GetMapping
+	@GetMapping("/getMessage")
 	public String getMessage() {
 		return "Hi... This is a SpringBoot project";
 	} 
